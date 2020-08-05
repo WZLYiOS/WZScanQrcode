@@ -1,0 +1,18 @@
+PODS:
+  - WZScanQrcode (1.1.0):
+    - WZScanQrcode/Source (= 1.1.0)
+  - WZScanQrcode/Source (1.1.0)
+
+DEPENDENCIES:
+  - WZScanQrcode (from `../`)
+
+EXTERNAL SOURCES:
+  WZScanQrcode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZScanQrcode: c3e463f94c286adb43ffab98732ec06b863c4822
+
+PODFILE CHECKSUM: a1e815cf6a95ec354930ab00b99eed892d3f4bac
+
+COCOAPODS: 1.7.5

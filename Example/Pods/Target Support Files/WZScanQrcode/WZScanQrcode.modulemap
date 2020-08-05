@@ -1,0 +1,6 @@
+framework module WZScanQrcode {
+  umbrella header "WZScanQrcode-umbrella.h"
+
+  export *
+  module * { export * }
+}

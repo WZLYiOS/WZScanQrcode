@@ -1,0 +1,6 @@
+framework module Pods_WZScanQrcode_Tests {
+  umbrella header "Pods-WZScanQrcode_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

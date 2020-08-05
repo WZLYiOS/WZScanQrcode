@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001BB48F0A509621176FDB51FE859196 /* WZScanQrcode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86815E1A0231862E7D5085F6F49560B4 /* WZScanQrcode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04BE841B0E1B890FD297BAA0BA907AFA /* WZScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23D26FA8CFCD54DC106C0BDABA63DD /* WZScanViewController.swift */; };
+		0A3A701B94FA8C4C1E159E073769B6DD /* Pods-WZScanQrcode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D441B7FD8E911B2CC3C47C82B515771 /* Pods-WZScanQrcode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35ED449084879200BB11BC9689188AEA /* WZScanQrcode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51419C4DF1057D3C692D11F4A19905C8 /* WZScanQrcode-dummy.m */; };
+		3693C3909285146562B449E9629C3AF7 /* WZPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F760334CF38AF2D662D084C785370B /* WZPermissions.swift */; };
+		4DFE17C15478BD29AFEB96E1161C3CA7 /* Pods-WZScanQrcode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6AD5E74B26A6C527B88F8D7B40228 /* Pods-WZScanQrcode_Example-dummy.m */; };
+		53196D614D5A4CAD7A90806FC630050E /* WZScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD858D2DFE71D83F59A68A3FB27518F0 /* WZScanResult.swift */; };
+		5783BBC08E13FE4EC371BC40331956E1 /* Pods-WZScanQrcode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F099DB82AD2638396979A039275E70 /* Pods-WZScanQrcode_Tests-dummy.m */; };
+		7F047F880547A244389F821F6022235A /* WZScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E26E363D28BD3E4BF7CB65F331BC3 /* WZScanView.swift */; };
+		944CEAB3FD46D3A4E2EFD80D095F187D /* WZScanViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99162C1172A80908DD596584098E554C /* WZScanViewConfig.swift */; };
+		9DC9DE2112231EEA9B9BC176A66052E7 /* Pods-WZScanQrcode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9C7FE57022701F7E829D20BC56BC84 /* Pods-WZScanQrcode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB43C07365216C6F890E021596AE57C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DAD6B2B1F6D07CB50BDD022127DB16D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DEB6B021168FFD3E724F321D309EEE50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DF852B8E5B426A7E179D3480D5D1577A /* WZScanWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F9CB2554C0F96F02BA7D73973B65D /* WZScanWrapper.swift */; };
+		E58C83224B8A2A596617D8974805027D /* WZScanAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F98960C8A533D59FF4AA096D07344E /* WZScanAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		367F300EBA86FC4D97B877C70335AE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AECE71EFE3EDE8E662793A164D52D76;
+			remoteInfo = "Pods-WZScanQrcode_Example";
+		};
+		801D1C26400B1ABB62A73936DA9A201A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB485EA7A3ECE210DFEEB8B2CEBD1A9D;
+			remoteInfo = WZScanQrcode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0247E5A4C0E505B5C61B6C7A2C94AD8B /* Pods-WZScanQrcode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZScanQrcode_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0BB372767D7232A32BCD029A44EB02D3 /* WZScanQrcode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZScanQrcode-Info.plist"; sourceTree = "<group>"; };
+		1D441B7FD8E911B2CC3C47C82B515771 /* Pods-WZScanQrcode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZScanQrcode_Example-umbrella.h"; sourceTree = "<group>"; };
+		1FCAB5221B7937A93DFBD8F90AF6E695 /* Pods-WZScanQrcode_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZScanQrcode_Example-Info.plist"; sourceTree = "<group>"; };
+		2A230493690D8E5131F40A9884489906 /* WZScanQrcode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZScanQrcode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ABC5B9E21C3781F91083434B2505066 /* Pods_WZScanQrcode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZScanQrcode_Tests.framework; path = "Pods-WZScanQrcode_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA6B3B92B32646916D2862C0FF01B7A /* Pods-WZScanQrcode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZScanQrcode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C8E26E363D28BD3E4BF7CB65F331BC3 /* WZScanView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WZScanView.swift; sourceTree = "<group>"; };
+		4079D7A08DA325AF1622CEDFD4694C85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		51419C4DF1057D3C692D11F4A19905C8 /* WZScanQrcode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZScanQrcode-dummy.m"; sourceTree = "<group>"; };
+		543262A72CFD9C18062B12EAA4F4C320 /* Pods-WZScanQrcode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZScanQrcode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56F099DB82AD2638396979A039275E70 /* Pods-WZScanQrcode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZScanQrcode_Tests-dummy.m"; sourceTree = "<group>"; };
+		584A31F409FD78BBC1DA85CDF7C55702 /* WZScanQrcode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZScanQrcode.xcconfig; sourceTree = "<group>"; };
+		65E22451CC0600437E64F2DDFAD83692 /* WZScanQrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZScanQrcode.framework; path = WZScanQrcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6896D853BA084E1917515BA1171CA80B /* Pods-WZScanQrcode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZScanQrcode_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		710F9CB2554C0F96F02BA7D73973B65D /* WZScanWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WZScanWrapper.swift; sourceTree = "<group>"; };
+		7507E6A31734BE757D7634551F4DF828 /* Pods-WZScanQrcode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZScanQrcode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		772DA6E8ED9901EAD2ADADE75C27635E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7BFA90E43DC68AEBE5D49D88255B16F2 /* Pods-WZScanQrcode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZScanQrcode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F450C8B7116416E2E672CFEACEFAED0 /* WZScanQrcode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZScanQrcode-prefix.pch"; sourceTree = "<group>"; };
+		82E091F0578AE80AB5EC4D768A7C6030 /* Pods-WZScanQrcode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZScanQrcode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84E6AD5E74B26A6C527B88F8D7B40228 /* Pods-WZScanQrcode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZScanQrcode_Example-dummy.m"; sourceTree = "<group>"; };
+		86815E1A0231862E7D5085F6F49560B4 /* WZScanQrcode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZScanQrcode-umbrella.h"; sourceTree = "<group>"; };
+		89CAF382930A8B01C9B2593D3C6FBAE1 /* Pods_WZScanQrcode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZScanQrcode_Example.framework; path = "Pods-WZScanQrcode_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99162C1172A80908DD596584098E554C /* WZScanViewConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WZScanViewConfig.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8F98960C8A533D59FF4AA096D07344E /* WZScanAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WZScanAnimation.swift; sourceTree = "<group>"; };
+		AD858D2DFE71D83F59A68A3FB27518F0 /* WZScanResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WZScanResult.swift; sourceTree = "<group>"; };
+		AF23D26FA8CFCD54DC106C0BDABA63DD /* WZScanViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WZScanViewController.swift; sourceTree = "<group>"; };
+		B1EC72BC544158AAEE6BAD73C2E8FD1F /* WZScanQrcode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZScanQrcode.modulemap; sourceTree = "<group>"; };
+		B90248FCE14251C8CF5635B8B170D65C /* Pods-WZScanQrcode_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZScanQrcode_Tests-Info.plist"; sourceTree = "<group>"; };
+		BE16B57B1191F947908CD669CC085387 /* Pods-WZScanQrcode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZScanQrcode_Tests.modulemap"; sourceTree = "<group>"; };
+		CF32D6CB314B3A779446552F8AF54182 /* Pods-WZScanQrcode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZScanQrcode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB9C7FE57022701F7E829D20BC56BC84 /* Pods-WZScanQrcode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZScanQrcode_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E3F760334CF38AF2D662D084C785370B /* WZPermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WZPermissions.swift; sourceTree = "<group>"; };
+		FC7B34FE250D614A64307D963665BFB7 /* Pods-WZScanQrcode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZScanQrcode_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB2CF17DE9CC3EF01DFE5875F6BAD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD6B2B1F6D07CB50BDD022127DB16D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2F7AE0180FE9D39549464FA6F0ABCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB43C07365216C6F890E021596AE57C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69664F66673742E58712A1C3B7BD01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB6B021168FFD3E724F321D309EEE50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0457B0B60078634E5C9AFEB7D7591671 /* Pods-WZScanQrcode_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B34FE250D614A64307D963665BFB7 /* Pods-WZScanQrcode_Example.modulemap */,
+				7507E6A31734BE757D7634551F4DF828 /* Pods-WZScanQrcode_Example-acknowledgements.markdown */,
+				7BFA90E43DC68AEBE5D49D88255B16F2 /* Pods-WZScanQrcode_Example-acknowledgements.plist */,
+				84E6AD5E74B26A6C527B88F8D7B40228 /* Pods-WZScanQrcode_Example-dummy.m */,
+				1FCAB5221B7937A93DFBD8F90AF6E695 /* Pods-WZScanQrcode_Example-Info.plist */,
+				1D441B7FD8E911B2CC3C47C82B515771 /* Pods-WZScanQrcode_Example-umbrella.h */,
+				0247E5A4C0E505B5C61B6C7A2C94AD8B /* Pods-WZScanQrcode_Example.debug.xcconfig */,
+				543262A72CFD9C18062B12EAA4F4C320 /* Pods-WZScanQrcode_Example.release.xcconfig */,
+			);
+			name = "Pods-WZScanQrcode_Example";
+			path = "Target Support Files/Pods-WZScanQrcode_Example";
+			sourceTree = "<group>";
+		};
+		1AC51DDE6BF10A2E7176FD0C2EDE5FB8 /* Pods-WZScanQrcode_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE16B57B1191F947908CD669CC085387 /* Pods-WZScanQrcode_Tests.modulemap */,
+				82E091F0578AE80AB5EC4D768A7C6030 /* Pods-WZScanQrcode_Tests-acknowledgements.markdown */,
+				CF32D6CB314B3A779446552F8AF54182 /* Pods-WZScanQrcode_Tests-acknowledgements.plist */,
+				56F099DB82AD2638396979A039275E70 /* Pods-WZScanQrcode_Tests-dummy.m */,
+				B90248FCE14251C8CF5635B8B170D65C /* Pods-WZScanQrcode_Tests-Info.plist */,
+				DB9C7FE57022701F7E829D20BC56BC84 /* Pods-WZScanQrcode_Tests-umbrella.h */,
+				3BA6B3B92B32646916D2862C0FF01B7A /* Pods-WZScanQrcode_Tests.debug.xcconfig */,
+				6896D853BA084E1917515BA1171CA80B /* Pods-WZScanQrcode_Tests.release.xcconfig */,
+			);
+			name = "Pods-WZScanQrcode_Tests";
+			path = "Target Support Files/Pods-WZScanQrcode_Tests";
+			sourceTree = "<group>";
+		};
+		48082270AF13DB68CA3072F0B4E951C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0457B0B60078634E5C9AFEB7D7591671 /* Pods-WZScanQrcode_Example */,
+				1AC51DDE6BF10A2E7176FD0C2EDE5FB8 /* Pods-WZScanQrcode_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		49133FB164DB28DB922273CBDC800FA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3F760334CF38AF2D662D084C785370B /* WZPermissions.swift */,
+				AD858D2DFE71D83F59A68A3FB27518F0 /* WZScanResult.swift */,
+				99162C1172A80908DD596584098E554C /* WZScanViewConfig.swift */,
+			);
+			name = Model;
+			path = WZScanQrcode/Classes/Model;
+			sourceTree = "<group>";
+		};
+		8BFECD04A9088E7EEAE7A85DEEA66F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89CAF382930A8B01C9B2593D3C6FBAE1 /* Pods_WZScanQrcode_Example.framework */,
+				3ABC5B9E21C3781F91083434B2505066 /* Pods_WZScanQrcode_Tests.framework */,
+				65E22451CC0600437E64F2DDFAD83692 /* WZScanQrcode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926BB7C260EF904BCC43E1A48C61BA30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC72BC544158AAEE6BAD73C2E8FD1F /* WZScanQrcode.modulemap */,
+				584A31F409FD78BBC1DA85CDF7C55702 /* WZScanQrcode.xcconfig */,
+				51419C4DF1057D3C692D11F4A19905C8 /* WZScanQrcode-dummy.m */,
+				0BB372767D7232A32BCD029A44EB02D3 /* WZScanQrcode-Info.plist */,
+				7F450C8B7116416E2E672CFEACEFAED0 /* WZScanQrcode-prefix.pch */,
+				86815E1A0231862E7D5085F6F49560B4 /* WZScanQrcode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WZScanQrcode";
+			sourceTree = "<group>";
+		};
+		A851E2FC43AB050A579585352FDE051C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BE733A9D61566356B0C8E090B912F9F7 /* Controller */,
+				49133FB164DB28DB922273CBDC800FA1 /* Model */,
+				C3CFB8EA548DDF678159A930230383AA /* View */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		BE733A9D61566356B0C8E090B912F9F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF23D26FA8CFCD54DC106C0BDABA63DD /* WZScanViewController.swift */,
+			);
+			name = Controller;
+			path = WZScanQrcode/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3CFB8EA548DDF678159A930230383AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8F98960C8A533D59FF4AA096D07344E /* WZScanAnimation.swift */,
+				3C8E26E363D28BD3E4BF7CB65F331BC3 /* WZScanView.swift */,
+				710F9CB2554C0F96F02BA7D73973B65D /* WZScanWrapper.swift */,
+			);
+			name = View;
+			path = WZScanQrcode/Classes/View;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F9A176A941D87127BDA84B1B2BB758CF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8BFECD04A9088E7EEAE7A85DEEA66F54 /* Products */,
+				48082270AF13DB68CA3072F0B4E951C2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E8147777A28E3D47F705D18B95D3FF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4079D7A08DA325AF1622CEDFD4694C85 /* LICENSE */,
+				772DA6E8ED9901EAD2ADADE75C27635E /* README.md */,
+				2A230493690D8E5131F40A9884489906 /* WZScanQrcode.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D9533A9151CE81F8C2402922D1FA8084 /* WZScanQrcode */ = {
+			isa = PBXGroup;
+			children = (
+				D2E8147777A28E3D47F705D18B95D3FF /* Pod */,
+				A851E2FC43AB050A579585352FDE051C /* Source */,
+				926BB7C260EF904BCC43E1A48C61BA30 /* Support Files */,
+			);
+			name = WZScanQrcode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F9A176A941D87127BDA84B1B2BB758CF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9533A9151CE81F8C2402922D1FA8084 /* WZScanQrcode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		281ADB29C1BDA7DA525DF82C4C0CF214 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC9DE2112231EEA9B9BC176A66052E7 /* Pods-WZScanQrcode_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37C020C9C7A5B15834BC26BF9078317 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001BB48F0A509621176FDB51FE859196 /* WZScanQrcode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54D789ADFCDF08018AD66303B0888D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3A701B94FA8C4C1E159E073769B6DD /* Pods-WZScanQrcode_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AECE71EFE3EDE8E662793A164D52D76 /* Pods-WZScanQrcode_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A23F545294E556C6EE67BC42080BB1 /* Build configuration list for PBXNativeTarget "Pods-WZScanQrcode_Example" */;
+			buildPhases = (
+				B54D789ADFCDF08018AD66303B0888D1 /* Headers */,
+				CEDEAFD79300A0A4F7ED045C82656024 /* Sources */,
+				1DB2CF17DE9CC3EF01DFE5875F6BAD1B /* Frameworks */,
+				BEEA1DDF63B85B9FD19283F2A9D5513F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E94501AE98DA6E7502EC0209313A3B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-WZScanQrcode_Example";
+			productName = "Pods-WZScanQrcode_Example";
+			productReference = 89CAF382930A8B01C9B2593D3C6FBAE1 /* Pods_WZScanQrcode_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C2EF9F0102F96330D97B325B10FF561 /* Pods-WZScanQrcode_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066AAB77DC26B7F54C89B3FBC84A3316 /* Build configuration list for PBXNativeTarget "Pods-WZScanQrcode_Tests" */;
+			buildPhases = (
+				281ADB29C1BDA7DA525DF82C4C0CF214 /* Headers */,
+				BA03DAA4E201F498094E448BA3BBB42D /* Sources */,
+				F69664F66673742E58712A1C3B7BD01E /* Frameworks */,
+				9D298F741A76C4359C15BD68FDA6CB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E9DDB410D953B0AFE3C7B9B45D7084 /* PBXTargetDependency */,
+			);
+			name = "Pods-WZScanQrcode_Tests";
+			productName = "Pods-WZScanQrcode_Tests";
+			productReference = 3ABC5B9E21C3781F91083434B2505066 /* Pods_WZScanQrcode_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB485EA7A3ECE210DFEEB8B2CEBD1A9D /* WZScanQrcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625AD7F176D6D7843F9E4320DD7619AB /* Build configuration list for PBXNativeTarget "WZScanQrcode" */;
+			buildPhases = (
+				B37C020C9C7A5B15834BC26BF9078317 /* Headers */,
+				129FB9297EFC5FD007E2B538BEA94DC7 /* Sources */,
+				5C2F7AE0180FE9D39549464FA6F0ABCD /* Frameworks */,
+				6EB3FF370C4248633A928A1EA28C3DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZScanQrcode;
+			productName = WZScanQrcode;
+			productReference = 65E22451CC0600437E64F2DDFAD83692 /* WZScanQrcode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8BFECD04A9088E7EEAE7A85DEEA66F54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AECE71EFE3EDE8E662793A164D52D76 /* Pods-WZScanQrcode_Example */,
+				4C2EF9F0102F96330D97B325B10FF561 /* Pods-WZScanQrcode_Tests */,
+				FB485EA7A3ECE210DFEEB8B2CEBD1A9D /* WZScanQrcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB3FF370C4248633A928A1EA28C3DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D298F741A76C4359C15BD68FDA6CB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEA1DDF63B85B9FD19283F2A9D5513F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		129FB9297EFC5FD007E2B538BEA94DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3693C3909285146562B449E9629C3AF7 /* WZPermissions.swift in Sources */,
+				E58C83224B8A2A596617D8974805027D /* WZScanAnimation.swift in Sources */,
+				35ED449084879200BB11BC9689188AEA /* WZScanQrcode-dummy.m in Sources */,
+				53196D614D5A4CAD7A90806FC630050E /* WZScanResult.swift in Sources */,
+				7F047F880547A244389F821F6022235A /* WZScanView.swift in Sources */,
+				944CEAB3FD46D3A4E2EFD80D095F187D /* WZScanViewConfig.swift in Sources */,
+				04BE841B0E1B890FD297BAA0BA907AFA /* WZScanViewController.swift in Sources */,
+				DF852B8E5B426A7E179D3480D5D1577A /* WZScanWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA03DAA4E201F498094E448BA3BBB42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5783BBC08E13FE4EC371BC40331956E1 /* Pods-WZScanQrcode_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDEAFD79300A0A4F7ED045C82656024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFE17C15478BD29AFEB96E1161C3CA7 /* Pods-WZScanQrcode_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E94501AE98DA6E7502EC0209313A3B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WZScanQrcode;
+			target = FB485EA7A3ECE210DFEEB8B2CEBD1A9D /* WZScanQrcode */;
+			targetProxy = 801D1C26400B1ABB62A73936DA9A201A /* PBXContainerItemProxy */;
+		};
+		D7E9DDB410D953B0AFE3C7B9B45D7084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WZScanQrcode_Example";
+			target = 3AECE71EFE3EDE8E662793A164D52D76 /* Pods-WZScanQrcode_Example */;
+			targetProxy = 367F300EBA86FC4D97B877C70335AE25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DC5E7FE534CCED742CCE053E49DC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584A31F409FD78BBC1DA85CDF7C55702 /* WZScanQrcode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZScanQrcode/WZScanQrcode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZScanQrcode/WZScanQrcode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZScanQrcode/WZScanQrcode.modulemap";
+				PRODUCT_MODULE_NAME = WZScanQrcode;
+				PRODUCT_NAME = WZScanQrcode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4722AEA143BBAE0A6676742F9B4F6D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0247E5A4C0E505B5C61B6C7A2C94AD8B /* Pods-WZScanQrcode_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZScanQrcode_Example/Pods-WZScanQrcode_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZScanQrcode_Example/Pods-WZScanQrcode_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		833706EB6817E9541F43E53C491F291F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543262A72CFD9C18062B12EAA4F4C320 /* Pods-WZScanQrcode_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZScanQrcode_Example/Pods-WZScanQrcode_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZScanQrcode_Example/Pods-WZScanQrcode_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		972021F60E018287D6105D3E1D1B2182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA6B3B92B32646916D2862C0FF01B7A /* Pods-WZScanQrcode_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZScanQrcode_Tests/Pods-WZScanQrcode_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZScanQrcode_Tests/Pods-WZScanQrcode_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D99A9B6FAD21ED116530B21333A8B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584A31F409FD78BBC1DA85CDF7C55702 /* WZScanQrcode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZScanQrcode/WZScanQrcode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZScanQrcode/WZScanQrcode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZScanQrcode/WZScanQrcode.modulemap";
+				PRODUCT_MODULE_NAME = WZScanQrcode;
+				PRODUCT_NAME = WZScanQrcode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB4F7BAD134A859139ABBCDBFE2232DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6896D853BA084E1917515BA1171CA80B /* Pods-WZScanQrcode_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZScanQrcode_Tests/Pods-WZScanQrcode_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZScanQrcode_Tests/Pods-WZScanQrcode_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		066AAB77DC26B7F54C89B3FBC84A3316 /* Build configuration list for PBXNativeTarget "Pods-WZScanQrcode_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972021F60E018287D6105D3E1D1B2182 /* Debug */,
+				BB4F7BAD134A859139ABBCDBFE2232DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625AD7F176D6D7843F9E4320DD7619AB /* Build configuration list for PBXNativeTarget "WZScanQrcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D99A9B6FAD21ED116530B21333A8B38 /* Debug */,
+				33DC5E7FE534CCED742CCE053E49DC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A23F545294E556C6EE67BC42080BB1 /* Build configuration list for PBXNativeTarget "Pods-WZScanQrcode_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4722AEA143BBAE0A6676742F9B4F6D40 /* Debug */,
+				833706EB6817E9541F43E53C491F291F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

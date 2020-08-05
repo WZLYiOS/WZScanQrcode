@@ -1,0 +1,42 @@
+{
+  "name": "WZScanQrcode",
+  "version": "1.1.0",
+  "summary": "WZScanQrcode 二维码扫一扫",
+  "description": "模仿各种二维码扫一扫的Demo.",
+  "homepage": "https://git.lug.ustc.edu.cn/wzios/WZScanQrcode",
+  "license": "MIT",
+  "authors": {
+    "xiaobin liu": "327847390@qq.com"
+  },
+  "source": {
+    "git": "https://git.lug.ustc.edu.cn/wzios/WZScanQrcode.git",
+    "tag": "1.1.0"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "default_subspecs": "Source",
+  "subspecs": [
+    {
+      "name": "Source",
+      "frameworks": "AssetsLibrary",
+      "source_files": [
+        "WZScanQrcode/Classes/Controller/",
+        "WZScanQrcode/Classes/Model/",
+        "WZScanQrcode/Classes/View/",
+        "UIKit"
+      ]
+    },
+    {
+      "name": "Binary",
+      "vendored_frameworks": "Carthage/Build/iOS/Static/WZScanQrcode.framework",
+      "user_target_xcconfig": {
+        "LIBRARY_SEARCH_PATHS": "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"
+      }
+    }
+  ],
+  "swift_version": "5.0"
+}
