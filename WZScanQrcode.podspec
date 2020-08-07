@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'WZScanQrcode'
-  s.version          = '2.0.1'
+  s.version          = '2.0.2'
   s.summary          = 'WZScanQrcode 二维码扫一扫.'
 
   s.description      = <<-DESC
@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   end
 
 
-  s.subspec 'Binary' do |ss|
-    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZScanQrcode.framework"
-    ss.user_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)' }
-  end
+#  s.subspec 'Binary' do |ss|
+#    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZScanQrcode.framework"
+#    ss.user_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)' }
+#  end
 end
 
